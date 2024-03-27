@@ -66,8 +66,8 @@ def user_input(user_question):
     st.write("Reply: ", response["output_text"])
 
 def main():
-    st.set_page_config("Chat PDF")
-    st.header("Chat with Your PDF Bot")
+    st.set_page_config("Your PDF Chat Bot")
+    st.header("Chat with Your PDF chat Bot")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
 
