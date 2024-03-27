@@ -12,13 +12,13 @@ Your PDF Chat Bot is a conversational AI designed to extract information from on
 2. **Ask Questions:** Users can input questions related to the content of the PDFs.
 3. **Receive Answers:** The chat bot analyzes the PDF content and responds with relevant answers.
 
-**How to Run**
+## How to Run
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up your Google API key in a `.env` file.
 4. Run the application: `streamlit run your_pdf_chat_bot.py`
 
-**Dependencies**
+## Dependencies
 - Streamlit
 - PyPDF2
 - langchain
@@ -26,5 +26,4 @@ Your PDF Chat Bot is a conversational AI designed to extract information from on
 - dotenv
 
 ## Contributing
-
 Contributions welcome! Open issues or PRs for improvements.
